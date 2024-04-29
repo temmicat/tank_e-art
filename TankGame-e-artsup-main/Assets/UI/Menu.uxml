@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/TankGame.uss?fileID=7433441132597879392&amp;guid=00a6bac987ad35144ba4e738d1817cde&amp;type=3#TankGame" />
+    <ui:VisualElement name="VisualElement" class="root" style="opacity: 1; display: flex;">
+        <ui:Label text="Drop Zone" class="header" />
+        <ui:VisualElement name="ButtonPanel" style="flex-grow: 1; margin-top: 10px; margin-left: 10px; height: auto; width: 30%; align-items: stretch; align-self: center;">
+            <ui:Button text="Play" name="PlayButton" class="button" />
+            <ui:Button text="Settings" name="SettingsButton" class="button" style="-unity-text-align: middle-center;" />
+            <ui:Button text="Quit" name="QuitButton" class="button" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Logo" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/index.jpg?fileID=2800000&amp;guid=9205f8cdcbb170141a50a091ad70a44c&amp;type=3#index&apos;); -unity-background-scale-mode: scale-to-fit; width: auto; height: 10%;">
+            <ui:Label text="fait par : temmi" parse-escape-sequences="false" style="background-color: rgba(236, 14, 14, 0); -unity-font-style: bold; -unity-text-align: upper-left; color: rgb(0, 0, 0); -unity-text-outline-width: 0; -unity-text-outline-color: rgba(55, 55, 188, 0); text-shadow: 0 0 0 rgba(217, 186, 186, 0);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
